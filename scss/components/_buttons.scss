@@ -1,0 +1,17 @@
+.headline-btn {
+    width: 7.1rem;
+    height: 3.5rem;
+    border-radius: 5px;
+    background-color: #EEF2F5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: $main-font;
+    font-size: $view-p-fs;
+    font-weight: $view-p-fw;
+    line-height: $view-p-lh;
+    &:hover{
+        background-color: #10CD45;
+        color: white;
+    }
+}

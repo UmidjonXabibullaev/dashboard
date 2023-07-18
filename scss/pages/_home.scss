@@ -1,0 +1,139 @@
+ body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+ main {
+    flex-grow: 1;
+}
+.sidebar {
+    width: 255px;
+    height: 1100px;
+    background-color:$sidebar-bg;
+    font-family: 'Mulish' , sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+.site-logo {
+    display: flex;
+    align-items: center;
+    gap: 1.8rem ;
+    padding: 3.6rem 2.3rem ;
+    margin-bottom: 6.3rem;
+   h1{
+      font-size: $h1-fs;
+      font-weight: $h1-fw;
+      line-height: $h1-lh;
+      letter-spacing: $h1-ls;
+      color:$h1-color;
+   }
+}
+.sidebar-bottom{
+    margin-top: 47rem ;
+    margin-bottom: 3.2rem;
+}
+.sidebar-divider{
+    opacity: 6%;
+}
+.site-item {
+    display: flex;
+    align-items: center;
+    padding-left: 2.6rem;
+   
+    width: 25.5rem;
+    height: 5.6rem;
+    &:active{
+        
+      background-color:$sidbar-bg;
+    }
+}
+.site-link {
+    display: flex;
+    align-items: center;
+    gap: 2.7rem;
+    font-size: $side-p-fs;
+    font-weight: $side-p-fw;
+    line-height: $side-p-lh;
+    letter-spacing: $side-p-ls;
+    color: $side-p-color;
+    img{
+        transition: 0.3s;
+        &:hover{
+         color: white;
+        }
+    }
+    
+}
+
+.main-wrapper{
+    display: flex;
+}
+.container {
+    font-family: $main-font;
+    color: $main-color;
+    font-size: $view-p-fs;
+    font-weight: $view-p-fw;
+    line-height: $view-p-lh;
+    width: 115rem;
+    height: 1100px;
+    display: flex;
+    flex-direction: column;
+}
+.view-top {
+    display: flex;
+    align-items: center;
+    padding-top: 4.3rem;
+    img{
+        margin-right: auto;
+    }
+    div{
+        display: flex;
+        align-items: center;
+        gap: 1.4rem ; 
+    }
+}
+
+
+.view-headline {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 6rem;
+    div{
+        display: flex;
+        gap: 3.2rem;
+    }
+}
+
+.view-list-headline {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 6.4rem;
+    padding-bottom: 2rem;
+
+}
+
+.view-item2  {
+    padding-left: 4rem;
+    padding-right: 2rem;
+    height: 6.6rem ;
+    background-color: $section-bg;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+span{
+    color: #E44067 ;
+}
+.span2 {
+    color: #00CA39;
+}
+.view-item {
+    padding-left: 4rem;
+    padding-right: 2rem;
+    height: 6.6rem ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
